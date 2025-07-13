@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ipl.css">
+    <style>
+        *{
+         font-family: 'Poppins', sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://www.pratidintv.com/wp-content/uploads/2025/03/ipl-2025-opening-match-set-to-feature-kkr-rcb-final-likely-on-may-25-1.webp" alt="">
+        </div>
+
+
+        <!-- this is for background logo -->
+        <div class="background">
+            <img src="url('mages.jpeg')" id="logobg" alt="rcb team">
+        </div>g
+
+        <div class="heading">
+            <h1 id="head">
+                Royal Challengers Bangalore
+            </h1>
+
+            <p style="font-weight: 500;">
+                The Royal Challengers Bangalore (RCB) is one of the most popular and exciting teams in the Indian Premier League (IPL), representing the city of Bangalore. Known for their star-studded lineup, RCB has consistently featured cricketing icons like Virat Kohli, AB de Villiers, and Glenn Maxwell. Despite having reached the IPL finals three times (2009, 2011, and 2016), the team has yet to secure the coveted title, often struggling with consistency in crucial moments. 
+
+ </p>
+
+            <button>WATCH NOW</button>
+        </div>
+
+        <!-- this is for main image -->
+
+        <div class="image">
+            <img id="myimage" src="https://images.mykhel.com/img/2024/03/rcb-new-jersey-logo-ft-1710861000.jpg" alt="">
+        </div>
+
+
+
+
+        <!-- now navbar -->
+
+        <div class="navbar">
+            <ul>
+                <li><a href="Teams.html" style="text-decoration: none;">Teams</a></li>
+                
+                <li><a href="pointtable.html" style="text-decoration: none;">Table</a></li>
+
+                <li><a href="https://www.iplt20.com/matches/fixtures" style="text-decoration: none;">Matches</a></li>
+
+                <li><a href="https://www.iplt20.com/videos/highlights"style ="text-decoration : none;">Highlights</a></li>
+
+            </ul>
+        </div>
+
+        <!-- html code is done -->
+
+        <!-- now jump to css code -->
+
+        <!-- one class is missing -->
+
+        <div class="empty">
+
+
+        </div>
+
+        <!-- this is for remaining teams -->
+
+        <div class="list">
+            <ol>
+                <li onclick="myFun( 'red', 'royal challangers banglore', 'imgaes/rcb3.png')">RCB</li>
+
+                <li onclick="myFun('https://w0.peakpx.com/wallpaper/554/975/HD-wallpaper-dhoni-csk-chennai-super-kings-mahendra-singh-dhoni-msd-thala-thumbnail.jpg', 'gold', 'Chennai Super Kings', 'c:\Users\ASUS\Downloads\csk.png')">CSK</li>
+
+
+                <!-- first one is sucessfully working -->
+                <!-- copy and change the image name, color -->
+                
+                <li onclick="myFun('https://i.pinimg.com/736x/a4/87/26/a48726809d1115236c20842dc781ae55.jpg', 'blue', 'Delhi Capitals', 'imgaes/ddlogo.png')">DC</li>
+                <li onclick="myFun('https://i.pinimg.com/736x/3c/fc/48/3cfc48484f9ec406f1da78cccb721fcf.jpg', 'dodgerblue', 'Mumbai Indians', 'imgaes/milogo.png')">MI</li>
+                <li onclick="myFun('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxsWuk8ejkkoDU0DVKlnJCXpaSIQk-5JdCQ&s', 'orange', 'Sun Raise Hydrabad', 'imgaes/srhlogo.png')">SRH</li>
+                <li onclick="myFun('https://img.etimg.com/thumb/width-1200,height-1200,imgsize-1807607,resizemode-75,msid-119476484/news/sports/punjab-kings-release-bas-jeetna-hai-campaign-for-2025-featuring-new-skipper-shreyas-iyer.jpg', 'red', 'King XI Punjab', 'imgaes/kplogo.png')">KXIP</li>
+                <li onclick="myFun('https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/This_is_the_logo_for_Rajasthan_Royals%2C_a_cricket_team_playing_in_the_Indian_Premier_League_%28IPL%29.svg/800px-This_is_the_logo_for_Rajasthan_Royals%2C_a_cricket_team_playing_in_the_Indian_Premier_League_%28IPL%29.svg.png', '#ff3385', 'Rajastan Royals', 'imgaes/rrlogo.png')">RR</li>
+                <li onclick="myFun('https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/1200px-Kolkata_Knight_Riders_Logo.svg.png', 'purple', 'Kolkata Knight Riders', 'imgaes/kkrlogo.png')">KKR</li>
+                <li onclick="myFun('https://www.sportsdunia.com/cdn-cgi/image/width=3840,onerror=redirect/https://cms-sportsdunia-prod.s3.ap-southeast-2.amazonaws.com/featured-image/ipl-teams/Sportsdunia-Templates-Divya-25.webp', 'skyblue', 'Gujarat Titans', 'imgaes/kkrlogo.png')">GT</li>
+                <li onclick="myFun('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRikIvbRRmnhjhYjxloh78Ce_EoWIWZzTdU3ztu3WVBKQNWBtGuW192PGUtf5YTuLWFTjo&usqp=CAU', 'purple', 'Kolkata Knight Riders', 'imgaes/kkrlogo.png', 'blue', 'Lucknow Super Giants', 'imgaes/kkrlogo.png')">LSG</li>
+            </ol>
+        </div>
+    </div>
+
+
+
+
+
+
+<script>
+
+    function myFun(image, colour, head, logo){
+        document.getElementById('myimage').src=image;
+        document.querySelector('.empty').style.backgroundColor=colour;
+        document.querySelector('button').style.backgroundColor=colour;
+        document.getElementById('head').innerHTML=head;
+        document.getElementById('logobg').src=logo;
+    }
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
